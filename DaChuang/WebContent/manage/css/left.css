@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .boss{
+            width: 1517px;
+            height: 1000px;
+            
+        }
+        .right {
+            width: 250px;
+            height: 1000px;
+            float: left;
+        }
+        .img1 {
+            margin: 70px 90px;
+        }
+        .manage {
+            font-size: 20px;
+            margin: -50px 60px;
+        }
+        .manage1 {
+            color: #9B9B9B;
+            margin: 60px 90px;
+        }
+        .manage1 a {
+        	 text-decoration: none;
+        	 color: #9B9B9B;
+        }
+        .manage1 a:hover {
+        	 text-decoration: underline;
+        	 color: #0036F5;
+        }
+        
+        .btn {
+            margin: -30px 50px;
+        }
+        .btn2 {
+            margin: -50px 120px;
+        }
+        .massage {
+            font-size: 14px;
+            color: #9B9B9B;
+            margin: 80px 20px;
+        }
+        .massage2 {
+            margin: -60px 40px;
+        }
+        .massage3 {
+            margin: 90px 40px;
+        }
+        .massage4 {
+            margin: -60px 40px;
+        }
+        .a3 {
+            text-decoration: none;
+            color: #000;
+        }
+        .a3:hover{
+            color: #8A8586;
+        }
+        .left {
+            width: 1267px;
+            height: 1000px;
+            background-color: #f1f2f7;
+            float: left;
+        }
+        .system {
+            font-size: 14px;
+            color: #9B9B9B;
+            margin: 90px 20px;
+        }
+        .system1 {
+            margin: -70px 40px;
+        }
+        .system2 {
+            margin: 100px 40px;
+        }
+        .left_massage {
+            font-size: 20px;
+            margin: 20px 85px;
+        }
+        .left_massage2 {
+            font-size: 20px;
+            margin: 60px 85px;
+        }
+        span{
+            color: #0100FF;
+        }
+        .left_massage3 {
+            width: 1100px;
+            height: 550px;
+            margin: -15px 85px;
+            border-radius: 20px;
+            background-color: #fff;
+        }
+        .left_massage31 {
+            font-size: 14px;
+              padding: 20px 25px;
+        }
+        .left_massage32 {
+            border: 1px solid #ccc;
+            width: 500px;
+            height: 100px;
+            margin: 10px 25px;
+            border-radius: 15px;
+        }
+        .left_massage322 {
+            color: #000;
+            position: relative;
+            top: -60px;
+        }
+        .left_massage323 {
+            color: #000;
+            position: relative;
+            top: -25px;
+            left: -180px;
+            font-weight: 600;
+            font-size: 25px;
+        }
+        .left_massage33 {
+            border: 1px solid #ccc;
+            width: 500px;
+            height: 100px;
+            margin: 30px 25px;
+            border-radius: 15px;
+        }
+        .left_massage332 {
+            color: #000;
+            position: relative;
+            top: -60px;
+        }
+        .left_massage333 {
+            color: #000;
+            position: relative;
+            top: -23px;
+            left: -195px;
+            font-weight: 600;
+            font-size: 25px;
+        }
+        .left_massage34 {
+            border: 1px solid #ccc;
+            width: 500px;
+            height: 100px;
+            margin: 35px 25px;
+            border-radius: 15px;
+        }
+        .left_massage342 {
+            color: #000;
+            position: relative;
+            top: -60px;
+        }
+        .left_massage343 {
+            color: #000;
+            position: relative;
+            top: -23px;
+            left: -165px;
+            font-weight: 600;
+            font-size: 25px;
+        }
+        .btn3 {
+            float: right;
+            margin: 50px 300px;
+        }
+        .btn4 {
+            float: right;
+            margin: 60px 300px;
+        }
+        .btn5 {
+            float: right;
+            margin: 60px 300px;
+        }

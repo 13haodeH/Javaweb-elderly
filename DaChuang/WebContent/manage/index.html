@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=SReg4V0nl3247GzXvQ3AbrARAKe7BDWS"></script>
+</head>
+<body>
+<div id="map-container"></div> 
+<script>
+// 异步加载地图
+function loadMapScript() {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = 'https://api.map.baidu.com/api?v=3.0&ak=SReg4V0nl3247GzXvQ3AbrARAKe7BDWS&callback=initMap';
+  document.body.appendChild(script);
+}
+
+// 回调函数用于初始化地图
+function initMap() {
+  var map = new BMap.Map("map-container");
+  var schoolLocation = new BMap.Point(111.557555, 40.792989);
+  map.centerAndZoom(schoolLocation, 16);
+  console.log("Map initialized successfully!");
+}
+
+// 异步加载地图脚本
+loadMapScript();
+</script>
+</body>
+</html>
